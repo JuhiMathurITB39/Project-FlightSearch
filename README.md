@@ -1,15 +1,15 @@
 # Project-FlightSearch
 
-# Flight Search Price Notifier ✈️  
+# Flight Search Price Notifier 
 
 ## Overview  
 An automated flight price tracking system that finds the cheapest flights using the Amadeus API and sends notifications via Twilio (SMS/WhatsApp) and Email.  
 
 ## Features  
-✅ Retrieves the latest flight prices from Amadeus API  
-✅ Updates Google Sheets with IATA codes  
-✅ Sends WhatsApp, SMS, and Email alerts when prices drop  
-✅ Secured with `.env` variables for sensitive data  
+Retrieves the latest flight prices from Amadeus API  
+Updates Google Sheets with IATA codes  
+Sends WhatsApp, SMS, and Email alerts when prices drop  
+Secured with `.env` variables for sensitive data  
 
 ## Tech Stack  
 - Python (Automation, API Handling)  
@@ -19,12 +19,14 @@ An automated flight price tracking system that finds the cheapest flights using 
 - Google Sheets API (Data Management)  
 
 ## Installation & Setup  
-1️⃣ Clone the repository:  
+1️ Clone the repository:  
 git clone https://github.com/your-username/Flight-Search-Notifier.git
 cd Flight-Search-Notifier
-2️⃣ Install dependencies:
+
+2️ Install dependencies:
 pip install -r requirements.txt
-3️⃣ Create a .env file in the project folder with:
+
+3️ Create a .env file in the project folder with:
 SHEETY_USERNAME=your_username
 SHEETY_PASSWORD=your_password
 SHEETY_PRICES_ENDPOINT=your_prices_sheet_endpoint
@@ -38,9 +40,9 @@ TWILIO_VERIFIED_NUMBER=your_verified_number
 MY_EMAIL=your_email
 MY_EMAIL_PASSWORD=your_email_password
 
-4️⃣ Run the script:
+4️ Run the script:
 python main.py
 How It Works
-📌 1. Retrieves Destination Data → Gets flight destinations & updates IATA codes in Google Sheets
-📌 2. Searches for Cheap Flights → Uses Amadeus API to find the lowest flight prices
-📌 3. Sends Alerts → Notifies users via WhatsApp, SMS, and email if a price drop is found
+1. Retrieves Destination Data → Gets flight destinations & updates IATA codes in Google Sheets
+2. Searches for Cheap Flights → Uses Amadeus API to find the lowest flight prices
+3. Sends Alerts → Notifies users via WhatsApp, SMS, and email if a price drop is found
