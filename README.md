@@ -1,6 +1,4 @@
-# Project-FlightSearch
-
-# Flight Search Price Notifier 
+# Project-FlightSearch 
 
 ## Overview  
 An automated flight price tracking system that finds the cheapest flights using the Amadeus API and sends notifications via Twilio (SMS/WhatsApp) and Email.  
