@@ -18,7 +18,7 @@ Secured with `.env` variables for sensitive data
 
 ## Installation & Setup  
 1️ Clone the repository:  
-git clone https://github.com/your-username/Flight-Search-Notifier.git
+git clone https://github.com/JuhiMathurITB39/Project-FlightSearch
 cd Flight-Search-Notifier
 
 2️ Install dependencies:
